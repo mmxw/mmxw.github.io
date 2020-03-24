@@ -93,7 +93,7 @@ blockquote:after {
 }
 img {
   display: block;
-  width: 100%;
+  width: 30%;
   height: auto;
   margin-bottom: 2em;
   background-color: #f0eeee;
