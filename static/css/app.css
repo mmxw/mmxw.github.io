@@ -24,7 +24,7 @@ h4 {
   font-weight: 700;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2.3em;
   line-height: 1.5em;
   margin-bottom: 1em;
 }
@@ -92,10 +92,11 @@ blockquote:after {
   border-bottom: 1px solid #f6ac00;
 }
 img {
-  display: block;
-  width: 30%;
-  height: auto;
-  margin-bottom: 2em;
+  /* display: inline; */
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 3em 4em 0;
   background-color: #f0eeee;
 }
 .thumbnail {
@@ -191,7 +192,7 @@ ul.no-bullet li:last-child {
   padding-right: 10px;
 }
 .outer-container {
-  max-width: 1280px;
+  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -205,11 +206,11 @@ ul.no-bullet li:last-child {
   margin-left: auto;
   margin-right: auto;
 }
-.inner-container::after {
+/* .inner-container::after {
   clear: both;
   content: "";
   display: table;
-}
+} */
 .inner-container,
 .outer-container {
   padding-left: 2em;
@@ -375,8 +376,11 @@ ul.no-bullet li:last-child {
   transform: translateY(-10px) rotate(-135deg);
 }
 .hero {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
   padding-top: 6em;
-  padding-bottom: 6em;
+  padding-bottom: 4em;
 }
 footer,
 .cta-section {
