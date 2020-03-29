@@ -32,12 +32,14 @@ h2,
 blockquote {
   font-size: 2em;
   line-height: 1.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 h3 {
   font-size: 1.65em;
   line-height: 1em;
   margin-bottom: 2em;
+  color: #f6ac00;
+  text-transform: uppercase;
 }
 h4 {
   font-size: 1.25em;
@@ -150,7 +152,7 @@ a:hover .arrow-left {
 }
 
 span {
-  display: inline-block;
+  color: #f6ac00;
 }
 ul.no-bullet {
   -webkit-margin-before: 0;
@@ -200,7 +202,7 @@ ul.no-bullet li:last-child {
   margin-left: auto;
   margin-right: auto;
   position: sticky;
-  top: 10px;
+  top: 0;
   background-color: white;
 }
 .outer-container::after {
@@ -388,7 +390,7 @@ ul.no-bullet li:last-child {
   flex-direction: row;
   align-content: center;
   padding-top: 6em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
 footer,
 .cta-section {
