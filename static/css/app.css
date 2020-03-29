@@ -487,7 +487,7 @@ footer,
 }
 
 .description {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-style: italic;
   line-height: normal;
   text-align: center;
@@ -527,4 +527,21 @@ footer,
   align-items: center;
   justify-content: space-around;
   margin-bottom: 3em;
+}
+
+@media only screen and (max-width: 420px) {
+  .screenshot {
+    width: 90px;
+    height: 150px;
+  }
+  
+  .screenshot-inq {
+    width: 175px;
+    height: 100px;
+  }
+  
+  .screenshot-bb {
+    width: 125px;
+    height: 100px;
+  }
 }
