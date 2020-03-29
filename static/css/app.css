@@ -30,9 +30,9 @@ h1 {
 }
 h2,
 blockquote {
-  font-size: 2.25em;
+  font-size: 2em;
   line-height: 1.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 h3 {
   font-size: 1.65em;
@@ -148,6 +148,10 @@ a:hover .arrow-left {
   padding-top: 3em;
   padding-bottom: 3em;
 }
+
+span {
+  display: inline-block;
+}
 ul.no-bullet {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -195,6 +199,9 @@ ul.no-bullet li:last-child {
   max-width: 80em;
   margin-left: auto;
   margin-right: auto;
+  position: sticky;
+  top: 10px;
+  background-color: white;
 }
 .outer-container::after {
   clear: both;
@@ -218,10 +225,11 @@ ul.no-bullet li:last-child {
 }
 .nav-container {
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .nav-right {
   display: flex;
