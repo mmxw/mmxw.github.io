@@ -37,8 +37,7 @@ blockquote {
 h3 {
   font-size: 1.65em;
   line-height: 1em;
-  margin-bottom: 2em;
-  color: #f6ac00;
+  margin-bottom: 1em;
   text-transform: uppercase;
 }
 h4 {
@@ -151,9 +150,7 @@ a:hover .arrow-left {
   padding-bottom: 3em;
 }
 
-span {
-  color: #f6ac00;
-}
+
 ul.no-bullet {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
