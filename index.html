@@ -9,17 +9,17 @@
   <link rel="stylesheet" type="text/css" href="static/css/app.css">
   <!-- <link rel="shortcut icon" href="/static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Nanum+Gothic:400,700&display=swap" rel="stylesheet">
+  
 
 </head>
 <body>
   <header class="outer-container">
     <nav class="nav-container">
-      <a class="site-logo transition-link" href="#" aria-hidden="true">
+      <a class="site-logo transition-link" href="" aria-hidden="true">
         <span class="logo-text">XW</span>
       </a>
       <ul class="nav-right">
-        <li class="list-item"><a class="transition-link" href="">Home</a></li>
-        <li class="list-item"><a class="transition-link" href="#">Projects</a></li>
+        <li class="list-item"><a class="transition-link" href="#projects">Projects</a></li>
         <li class="list-item"><a class="transition-link" href="#">CV</a></li>
         <li class="list-item"><a class="transition-link" href="#">Misc</a></li>
       </ul>
@@ -27,11 +27,12 @@
   </header>
   <main class="content">
     <section class="inner-container hero">
-      <img src="static/images/xuan.png" alt="photo of xuan at her favorite chinese restaurant in london" />
+      <img class ="xuan" src="static/images/xuan.png" alt="photo of xuan at her favorite chinese restaurant in london" />
       <h1>Hiya! I am <span>Xuan</span>, a philosopher turned software engineer based in London, UK.</h1>
     </section>
     
     <section class="inner-container space-bottom">
+    
       <h3>My passion:</h2> 
       <p>
         To use technology to identify and solve problems creatively and efficiently.
@@ -44,11 +45,72 @@
         With a forward-thinking mindset, I write tests and accessible websites and applications, and I value good error messages and documentation.
       </p>
       <p>
-        Open-minded, funny, compassionate, love learning, and thrive in team setting.
+        I am open-minded, funny, compassionate, love learning, and thrive in team setting.
       </p>
+      
+      <h3><a name="projects">My projects:</a></h3>
+      
+      <div class="project-link">
+        <h4>DietLogue</h4>
+        <span>
+        <a href="https://github.com/mmxw/dietlogue"><img src="static/images/github.svg" alt="github logo" class="link-logo"/></a>
+        <a href="https://diet-logue.herokuapp.com/"><img src="static/images/heroku.svg" alt="heroku logo" class="link-logo" /></a></span>
+      </div>
+      <p class="description"> a web app for logging daily food consumption, calculating and charting nutrition intake trends</p> 
+      <p class="description">
+        Tech stack: PostgresQL, Express, React, Node, Python, Django, HTML, CSS, Bulma, Axios, Plotly.js, JWT
+      </p>
+      
+      <div class="dietlogue">
+        <img class="screenshot" src="static/images/4register.png" alt="screenshot of app landing page"/>
+        <img class="screenshot" src="static/images/3logentry.png" alt="screenshot of food log entry"/>
+        <img class="screenshot" src="static/images/1chart.png" alt="screenshot of weekly food consumption chart"/>
+        <img class="screenshot" src="static/images/2dayinglance.png" alt="screenshot of daily food intake"/>
+      </div>
+
+      <div class="project-link">
+        <h4>Breaking Bad</h4>
+        <span>
+        <a href="https://github.com/mmxw/dietlogue"><img src="static/images/github.svg" alt="github logo" class="link-logo"/></a>
+        <a href="https://diet-logue.herokuapp.com/"><img src="static/images/heroku.svg" alt="heroku logo" class="link-logo" /></a></span>
+      </div>
+      <p class="description">A fun project showing all the characters of Breaking Bad in each episode, and (sadly) how they die. </p> 
+      <p class="description">
+      Tech stack: RESTful APIs, React, HTML, CSS, Bulma, Axios
+      </p>
+      
+      <div class="breakingbad">
+        <img class="screenshot-bb" src="static/images/bb2.png" alt=""/>
+        <img class="screenshot-bb" src="static/images/bb3.png" alt=""/>
+        <img class="screenshot-bb" src="static/images/bb1.png" alt=""/>
+
+      </div>
+
+      <div class="project-link">
+        <h4>Inquisitours</h4>
+        <span>
+        <a href="https://github.com/mmxw/inquisitours"><img src="static/images/github.svg" alt="github logo" class="link-logo"/></a>
+        <a href="https://project-three-sei45.herokuapp.com/"><img src="static/images/heroku.svg" alt="heroku logo" class="link-logo" /></a></span>
+      </div>
+      <p class="description"> a website for pubs to post quiz events and for inquisitive minds to join teams to enjoy fun challenges</p> 
+      <p class="description">
+        Tech stack: MongoDB, Express, React, Node, React-Mapbox, Mocha, HTML, CSS, Bulma, AxiosT
+      </p>
+      
+      <div class="inquizitours">
+        <img class="screenshot-inq" src="static/images/inquizitours1.png" alt="screenshot of app landing page"/>
+        <img class="screenshot-inq" src="static/images/inquizitours2.png" alt="screenshot of maps of pubs"/>
+        
+      </div>
 
       
+
+
+
+
     </section>
+
+
   </main>
 
   
