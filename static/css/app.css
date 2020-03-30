@@ -133,7 +133,11 @@ a:hover .arrow-left {
 }
 .border {
   border-top: 1px solid #f0eeee;
+  max-width: 80em;
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
+
 .border-bottom {
   border-bottom: 1px solid #f0eeee;
 }
@@ -498,6 +502,11 @@ footer,
   height: 20px;
   margin: 0px 5px 20px 10px;
 }
+.connect-logo {
+  width: 25px;
+  height: 25px;
+  margin: 0px 15px 20px 10px;
+}
 
 .project-link {
   display: flex;
@@ -544,4 +553,6 @@ footer,
     width: 125px;
     height: 100px;
   }
+
+
 }
