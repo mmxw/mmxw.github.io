@@ -26,7 +26,7 @@ h4 {
 h1 {
   font-size: 2.3em;
   line-height: 1.5em;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   /* margin-top: 1em; */
 }
 h2,
