@@ -27,6 +27,7 @@ h1 {
   font-size: 2.3em;
   line-height: 1.5em;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 h2,
 blockquote {
@@ -97,7 +98,7 @@ blockquote:after {
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  margin: 0 3em 4em 0;
+  margin: 0 3em 5em 0;
   background-color: #f0eeee;
 }
 
@@ -500,6 +501,16 @@ footer,
 .link-logo {
   width: 20px;
   height: 20px;
+  margin: 0px 5px 20px 10px;
+}
+.codebar-logo {
+  width: 45px;
+  height: 27px;
+  margin: 0px 5px 20px 10px;
+}
+.meetup-logo {
+  width: 45px;
+  height: 30px;
   margin: 0px 5px 20px 10px;
 }
 .connect-logo {
