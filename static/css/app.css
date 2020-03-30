@@ -506,17 +506,17 @@ footer,
 .codebar-logo {
   width: 45px;
   height: 27px;
-  margin: 0px 5px 20px 10px;
+  margin: 5px 5px 15px 10px;
 }
 .meetup-logo {
   width: 45px;
   height: 30px;
-  margin: 0px 5px 20px 10px;
+  margin: 5px 5px 15px 10px;
 }
 .connect-logo {
-  width: 25px;
-  height: 25px;
-  margin: 0px 15px 20px 10px;
+  width: 20px;
+  height: 20px;
+  margin: 30px 15px 20px 10px;
 }
 
 .project-link {
@@ -551,18 +551,27 @@ footer,
 
 @media only screen and (max-width: 420px) {
   .screenshot {
-    width: 90px;
-    height: 150px;
+    width: 120px;
+    height: 170px;
   }
   
   .screenshot-inq {
-    width: 175px;
-    height: 100px;
+    width: 150px;
+    height: 90px;
   }
   
   .screenshot-bb {
-    width: 125px;
-    height: 100px;
+    width: 100px;
+    height: 90px;
+  }
+
+  .dietlogue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
   }
 
 
