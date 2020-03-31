@@ -136,7 +136,7 @@ a:hover .arrow-left {
   border-top: 1px solid #f0eeee;
   max-width: 80em;
   margin-top: 10em;
-  margin-bottom: 10em;
+  margin-bottom: 4em;
 }
 
 .border-bottom {
@@ -395,11 +395,17 @@ ul.no-bullet li:last-child {
   padding-top: 6em;
   padding-bottom: 2em;
 }
-footer,
+
 .cta-section {
   text-align: center;
-  padding-top: 3em;
-  padding-bottom: 4em;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .blog-list,
 .project-list {
@@ -572,6 +578,10 @@ footer,
     align-items: center;
     justify-content: center;
     margin-bottom: 3em;
+  }
+
+  .purple {
+    color: purple;
   }
 
 
