@@ -3,6 +3,7 @@ html {
   font-family: libre baskerville, Georgia, serif;
   color: #494c4e;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 body {
   border: 8px solid #494c4e;
