@@ -68,8 +68,8 @@ ol li {
 
 p {
   font-size: 1.5em;
-  line-height: 2em;
-  margin-bottom: 1.5em;
+  line-height: 1.7em;
+  margin-bottom: 1em;
 }
 
 .skills {
@@ -108,7 +108,7 @@ blockquote:after {
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  margin: 0 3em 5em 0;
+  margin: 0 3em 2em 0;
   background-color: #f0eeee;
 }
 .underline {
@@ -149,7 +149,7 @@ a:hover .arrow-left {
 } */
 .border {
   border-top: 1px solid #f0eeee;
-  max-width: 90em;
+  max-width: 80em;
   margin-top: 10em;
   margin-bottom: 4em;
 }
@@ -201,7 +201,7 @@ ul.no-bullet li:last-child {
 }
 
 .outer-container {
-  max-width: 90em;
+  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
   position: sticky;
@@ -214,7 +214,7 @@ ul.no-bullet li:last-child {
   display: table;
 }
 .inner-container {
-  max-width: 90em;
+  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -225,8 +225,8 @@ ul.no-bullet li:last-child {
   padding-right: 2em;
 }
 .nav-container {
-  padding-top: 3em;
-  padding-bottom: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -293,7 +293,7 @@ ul.no-bullet li:last-child {
   display: flex;
   flex-direction: row;
   align-content: center;
-  padding-top: 4em;
+  padding-top: 2em;
   padding-bottom: 1em;
 }
 
