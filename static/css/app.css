@@ -29,9 +29,8 @@ h4 {
 }
 h1 {
   font-size: 2em;
-  line-height: 1.5em;
-  margin-bottom: 1em;
-  margin-top: 0.5em;
+  line-height: 2em;
+  
 }
 
 h2,
@@ -108,7 +107,7 @@ blockquote:after {
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  margin: 0 3em 2em 0;
+  margin: 0 3em 0 0;
   background-color: #f0eeee;
 }
 .underline {
@@ -147,6 +146,18 @@ a:hover .arrow-left {
   transition: all 0.25s ease;
   display: inline-block;
 } */
+.border-about {
+  border-top: 1px solid #f0eeee;
+  max-width: 80em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.border-project {
+  border-top: 1px solid #f0eeee;
+  max-width: 80em;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
 .border {
   border-top: 1px solid #f0eeee;
   max-width: 80em;
@@ -290,11 +301,16 @@ ul.no-bullet li:last-child {
 }
 
 .hero {
+  max-width: 60em;
   display: flex;
   flex-direction: row;
-  align-content: center;
   padding-top: 2em;
   padding-bottom: 1em;
+  align-items: center;
+  /* justify-content: center; */
+  /* align-content: center; */
+  margin: 0 auto;
+
 }
 
 .charity {
@@ -303,7 +319,7 @@ ul.no-bullet li:last-child {
 
 .cta-section {
   text-align: center;
-  padding-top: 4em;
+  padding-top: 2em;
   /* padding-bottom: 4em; */
 }
 
@@ -363,7 +379,7 @@ ul.no-bullet li:last-child {
 
 .project-link {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   /* justify-content: center; */
 }
