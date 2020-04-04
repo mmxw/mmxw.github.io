@@ -355,6 +355,11 @@ ul.no-bullet li:last-child {
   height: 20px;
   margin: 30px 15px 20px 10px;
 }
+.goodreads-logo {
+  width: 22px;
+  height: 22px;
+  margin: 30px 15px 20px 10px;
+}
 
 .project-link {
   display: flex;
