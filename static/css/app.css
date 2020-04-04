@@ -29,7 +29,7 @@ h4 {
 }
 h1 {
   font-size: 2em;
-  line-height: 1.2em;
+  line-height: 1.5em;
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
@@ -271,7 +271,7 @@ ul.no-bullet li:last-child {
   transition: transform 0.4s ease-in-out;
   font-weight: bolder;
   font-size: 15px;
-  color: #f6ac00;
+  color: #494c4e;
 
 }
 .site-logo:hover {
@@ -332,7 +332,7 @@ ul.no-bullet li:last-child {
   font-size: 1.35em;
   font-style: italic;
   line-height: normal;
-  text-align: center;
+  /* text-align: center;  */
 }
 
 .link-logo {
@@ -360,7 +360,7 @@ ul.no-bullet li:last-child {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .dietlogue {
