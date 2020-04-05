@@ -29,7 +29,7 @@ h4 {
 }
 h1 {
   font-size: 2em;
-  line-height: 2em;
+  line-height: 1.2em;
   
 }
 
@@ -150,7 +150,7 @@ a:hover .arrow-left {
   border-top: 1px solid #f0eeee;
   max-width: 80em;
   margin-top: 3em;
-  margin-bottom: 3em;
+  padding-bottom: 2em;
 }
 .border-project {
   border-top: 1px solid #f0eeee;
