@@ -110,6 +110,10 @@ blockquote:after {
   margin: 0 3em 0 0;
   background-color: #f0eeee;
 }
+.images {
+  height: 10%;
+  width: 10%;
+}
 .underline {
   /* border-bottom: 5px solid #494c4e; */
   border-bottom: 3px solid #f6ac00;
@@ -155,8 +159,8 @@ a:hover .arrow-left {
 .border-project {
   border-top: 1px solid #f0eeee;
   max-width: 80em;
-  margin-top: 10em;
-  margin-bottom: 5em;
+  margin-top: 3em;
+  padding-bottom: 2em;
 }
 .border {
   border-top: 1px solid #f0eeee;
